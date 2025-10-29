@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "FileSystemSo3Application",
+      "request": "launch",
+      "mainClass": "fileSystemSO3.FileSystemSo3Application",
+      "projectName": "fileSystemSO3"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DriveWebApplication<drive_web>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.driveweb.drive_web.DriveWebApplication",
+      "projectName": "drive_web",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
